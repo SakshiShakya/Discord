@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    overflow-x: hidden;
+}
+.top-sec{
+    background-color: #404eed;
+    height: 630px;
+    width: 100%;
+    background-image: url('image/Image0.svg');
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-logo a{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-logo{
+    margin: 30px 30px 20px 150px;
+}
+.nav-links a{
+    color: whitesmoke;
+    margin: 15px;
+    text-decoration: none;
+} 
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.nav-login button{
+    height: 40px;
+    border-style: none;
+    width: 60px;
+    border-radius: 20px;
+    margin-right: 150px;
+    transition: all 0.2s ease-in-out;
+}
+.nav-login button:hover{
+    color: #404eed;
+    box-shadow: 0 5px 15px #6772ee;
+    cursor: pointer;
+}
+
+
+header{
+    color: white;
+    line-height: 1.5;
+}
+.header-content{
+    width: 50%;
+    text-align: center;
+    margin: 50px auto 0px auto;
+    font-size: 20px;
+}
+.header-buttons button{
+    border-style: none;
+    height: 55px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 40px 10px 30px 10px;
+}
+.btn-light{
+    width: 250px;
+    transition: all 0.2s ease-in-out;
+}
+.btn-light:hover{
+    color: #404eed;
+    box-shadow: 0 10px 20px #1e2ff0;
+    cursor: pointer;
+}
+.btn-dark{
+    width: 350px;
+    color: white;
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+.btn-dark:hover{
+    background-color: rgb(49, 48, 48);
+    box-shadow: 0 3px 10px rgb(3, 3, 3);
+    cursor:pointer;
+}
+.header-images img{
+    position: absolute;
+}
+
+
+.mid-sec{
+    width: 100%;
+    margin-top: 60px;
+}
+.mid-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.mid-content{
+    font-size: 23px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+}
+
+.mid-lower-sec{
+    padding: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(249, 245,245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.mid-lower-h2{
+    background-image: url('image/section5Image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 600px;
+}
+.btn-mid{
+    width: 250px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: #404eed;
+}
+.btn-mid:hover{
+    box-shadow: 0 10px 20px #858ef7;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding: 40px;
+}
+.footer-left{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 20%;
+}
+
+.footer-left h1{
+    color: #404eed;
+    font-size: 40px;
+}
+.footer-right{
+    margin-top: 60px;
+    display: flex;
+    margin-right: 100px;
+    width: 50%;
+    justify-content: space-between;
+    line-height: 2;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links h6{
+    font-size: 15px;
+    color: #404eed;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+#country{
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    border-style: none;
+    margin: 10px 0px 10px 0px;
+}
+.footer-icons i{
+    padding: 10px;
+}
+.bottom-sec{
+    background-color: rgb(34, 34, 34);
+    height: 120px;
+}
